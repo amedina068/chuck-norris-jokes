@@ -1,0 +1,26 @@
+{
+    "name": "amedina/chuck-norris-jokes",
+    "description": "It tells chuck norris jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alejandro Medina",
+            "email": "amedina.dev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Amedina\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amedina\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
