@@ -9,7 +9,7 @@ class ChuckNorrisJoke extends Command
 {
     protected $signature = 'chuck-norris';
 
-    protected $description ="output Chuck Norris Jokes";
+    protected $description = 'output Chuck Norris Jokes';
 
     public function handle()
     {
