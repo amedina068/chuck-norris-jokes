@@ -9,6 +9,7 @@ class ChuckNorrisController
     public function __invoke()
     {
         $joke = ChuckNorris::getRandomJoke();
+
         return view('chuck-norris::joke', compact('joke'));
     }
 }
