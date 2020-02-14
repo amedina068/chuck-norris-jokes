@@ -4,8 +4,8 @@ namespace Amedina\ChuckNorrisJokes\Tests;
 
 use Amedina\ChuckNorrisJokes\JokeFactory;
 use GuzzleHttp\Client;
-use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Handler\MockHandler;
+use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 
