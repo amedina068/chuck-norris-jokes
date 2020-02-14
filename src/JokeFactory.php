@@ -8,6 +8,7 @@ class JokeFactory
 {
     const API_ENDPOINT = 'http://api.icndb.com/jokes/random';
     protected $client;
+
     public function __construct(Client $client = null)
     {
         $this->client = $client ?: new Client;
@@ -17,6 +18,7 @@ class JokeFactory
     {
         $response = $this->client->get(self::API_ENDPOINT);
         $joke = json_decode((string) $response->getBody()->getcontents());
+
         return $joke->value->joke;
     }
 }
